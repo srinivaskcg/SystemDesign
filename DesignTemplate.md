@@ -51,12 +51,18 @@
           - AP [Unbounded size] => Cassandra, RIAK, Voldemort
           - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
   - Caches
-    -  Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
-    - Eviction policies:
+    - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
+    - Caching Patterns:
       - Cache aside
       - Write through
       - Write behind
       - Refresh ahead
+    - Eviction policies:
+      - Time based eviction
+      - First in, first out (FIFO)
+      - First in, last out (FILO)
+      - Least accessed
+      - Least time between access
   - Asynchronism
     - Message queues
     - Task queues
