@@ -1,4 +1,4 @@
-# SystemDesignQuestions
+# System Design Ideas
 
 1. Tiny URL
 2. Global video streaming service - YouTube, Netflix or Twitch
